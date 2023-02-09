@@ -6,19 +6,19 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "21682899")) #optional
-API_HASH = getenv("e229324b498117cb17a28f6bc6141d95", "") #optional
+API_ID = int(getenv("API_ID", "27899654")) #optional
+API_HASH = getenv("API_HASH", "644a291c69677a2fd785c43455b1df08") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("5851363440"))
-MONGO_URL = getenv("mongodb+srv://blazeshubham:shubham@cluster0.vftwypv.mongodb.net/?retryWrites=true&w=majority")
+OWNER_ID = int(getenv("OWNER_ID", "5851363440"))
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://blazeshubham:shubham@cluster0.vftwypv.mongodb.net/?retryWrites=true&w=majority")
 BOT_TOKEN = getenv("BOT_TOKEN", "5844402409:AAHNv3686CJ8AuKV-ZqK80gFPBzi0_r-HsI")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/a93d7fdd0e919d740bd34.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/shubhamofficialreal/user")
+REPO_URL = getenv("REPO_URL", "https://github.com/ITZ-ZAID/ZAID-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "BQBdYFBwcBYBVKBKQdje558RAB-BKjJrK31eK5JkgMIyQFcFZqslFMAJu_yuamPYJMAi5aRHR1y_mO-MPA9Fcwo1IOgpqwmidIGPzEsdTJogHIEDCHOYxZe75vNavjDNjXfFyvnxx4YkKcvJKgJBJlkM9zySE58YP_z31ydSeYn3Ew41Vvu1yXTBMyzI6oNTs3jRyH2O03NsEFtEPUb9yyQFImtfZRnL9zH5aHBfhycrAdGHcvF3kU2so2tLGugNARLh1HrMjF7CsQxkPfJXBKcvp-yuAPFtSwaysXE6dR9DZvIvrC9FUPijrwUjq9diqlV2ujJleOxGPxAkgdzgZ-b4AAAAAVzEuHAA")
